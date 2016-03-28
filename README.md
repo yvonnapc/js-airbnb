@@ -1,7 +1,12 @@
-# Super-rentals
+# _Super-rentals_
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+#### An interactive Air-B&B website  | March 28, 2016
+
+#### By: Yvonna Contreras & Erik Tolentino
+
+## Description
+
+JavaScript: Ember Super Rentals App.
 
 ## Prerequisites
 
@@ -13,41 +18,39 @@ You will need the following things properly installed on your computer.
 * [Ember CLI](http://www.ember-cli.com/)
 * [PhantomJS](http://phantomjs.org/)
 
-## Installation
+## Setup/Installation Requirements
 
-* `git clone <repository-url>` this repository
-* change into the new directory
-* `npm install`
-* `bower install`
+1. Open Terminal and clone into this repository: ```https://github.com/yvonnapc/js-airbnb.git```
+2. Within the home directory, run:<br>
+       ```$ brew install node ```<br>
+       ```$ npm install -g bower ```<br>
+       ```$ brew install watchman ```<br>
+       ```$ npm install -g ember-cli ```<br>
+       ```$ ember s ```<br>
+5. Your browser will automatically navigate to the app at: http://localhost:4200
 
-## Running / Development
+## Known Bugs
 
-* `ember server`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+N/A
 
-### Code Generators
+## Support and contact details
 
-Make use of the many generators for code, try `ember help generate` for more details
+If you have any issues, questions, ideas, or concerns contact us through GitHub. If you would like to make a contribution to the code, feel free to do so and notify me by e-mail.
 
-### Running Tests
+## Technologies Used
 
-* `ember test`
-* `ember test --server`
+* Typescript
+* Ember
+* JavaScript
+* Component
+* Bootstrap
+* GIT
+* NPM
+* Node
+* Bower
+* Gulp
+* SCSS
 
-### Building
+## License
 
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](http://www.ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
+Copyright (c) 2016  |  Yvonna Contreras & Erik Tolentino  |  Epicodus  |  Portland, OR
