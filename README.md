@@ -1,4 +1,4 @@
-# _Super-rentals_
+# _Super-Rentals_
 
 #### An interactive Air-B&B website  | March 28, 2016
 
@@ -6,17 +6,7 @@
 
 ## Description
 
-JavaScript: Ember Super Rentals App.
-
-## Prerequisites
-
-You will need the following things properly installed on your computer.
-
-* [Git](http://git-scm.com/)
-* [Node.js](http://nodejs.org/) (with NPM)
-* [Bower](http://bower.io/)
-* [Ember CLI](http://www.ember-cli.com/)
-* [PhantomJS](http://phantomjs.org/)
+JavaScript: Ember Super Rentals App. This application serves as a platform for the user to view various property listings available for rent. The user can click a button to show an photo of the specific property and then click the image to hide the photo. The user can also fill a form to add a new rental and click a button to delete an existing rental.
 
 ## Setup/Installation Requirements
 
@@ -26,12 +16,13 @@ You will need the following things properly installed on your computer.
        ```$ npm install -g bower ```<br>
        ```$ brew install watchman ```<br>
        ```$ npm install -g ember-cli ```<br>
+       ```$ ember install emberfire ```<br>
        ```$ ember s ```<br>
-5. Your browser will automatically navigate to the app at: http://localhost:4200
+3. Your browser will automatically navigate to the app at: http://localhost:4200
 
 ## Known Bugs
 
-N/A
+In the Firebase database, any rentals that are not hard-coded will be given a jumbled title in place of an id number.
 
 ## Support and contact details
 
