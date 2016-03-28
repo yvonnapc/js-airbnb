@@ -2,5 +2,11 @@
 
 We hope you find exactly what you are looking for
 
+<ul>
+  {{#each model as |rental|}}
+    <li>{{rental.owner}}'s {{rental.type}} in {{rental.city}}</li>
+    {{/each}}
+</ul>
+
 {{#link-to 'about'}}About Us{{/link-to}}
 {{#link-to 'contact'}}Contact Us{{/link-to}}
