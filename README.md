@@ -13,6 +13,7 @@ JavaScript: Ember Super Rentals App. This application serves as a platform for t
 1. Open Terminal and clone into this repository: ```https://github.com/yvonnapc/js-airbnb.git```
 2. Within the home directory, run:<br>
        ```$ brew install node ```<br>
+       ```$ npm install ```<br>
        ```$ npm install -g bower ```<br>
        ```$ brew install watchman ```<br>
        ```$ npm install -g ember-cli ```<br>
