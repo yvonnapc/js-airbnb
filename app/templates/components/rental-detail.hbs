@@ -1,5 +1,9 @@
-Located in {{rental.city}}, this {{rental.bedrooms}} bedroom {{rental.type}} is available by appointment through {{rental.owner}}.
+<h3>Located in {{rental.city}}, this {{rental.bedrooms}} bedroom {{rental.type}} is available by appointment through {{rental.owner}}.</h3>
 <br>
 
 <button class="btn btn-danger"{{action 'delete' rental}}>Delete</button>
-<p><img src={{rental.image}} alt={{rental.type}}></p>
+<figure class="figure">
+  <img class="figure-img img-fluid img-rounded" src={{rental.image}} alt={{rental.type}}>
+  <figcaption class="figure-caption">A caption for the above image.</figcaption>
+</figure>
+<p></p>

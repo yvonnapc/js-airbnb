@@ -1,15 +1,13 @@
 
-  <h1>Welcome to super-rentals</h1>
-
-  We hope you find exactly what you are looking for
+  <h2>Welcome to super-rentals</h2>
 
   <ul>
     {{#each model as |rental|}}
-      {{rental-tile rental=rental}}
+      <h4>{{rental-tile rental=rental}}</h4>
     {{/each}}
   </ul>
 
   {{new-rental save2="save3"}}
 
-  {{#link-to 'about'}}About Us{{/link-to}}
-  {{#link-to 'contact'}}Contact Us{{/link-to}}
+  <h1>{{#link-to 'about'}}About Us{{/link-to}} | {{#link-to 'contact'}}Contact Us{{/link-to}}</h1>
+  <h1></h1>
