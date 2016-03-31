@@ -4,7 +4,7 @@ export default Ember.Component.extend({
   addNewCity: false,
   actions: {
     cityFormShow(){
-      this.set("addNewCity", true)
+      this.set("addNewCity", true);
     },
 
     save4(){
